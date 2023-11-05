@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border:none;
+}
+body{
+    margin:0 auto;
+    background: hsl(222, 26%, 31%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header, nav{
+    width: 80%;
+    max-width: 500px;
+    display: none;
+    justify-content: space-between;
+    margin:0 auto;
+    align-items: center;
+}
+header button{
+    background: none;
+    padding: .2em 1em;
+    height: 33px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+.logo{
+    font-size: 2rem;
+    color:#fff;
+}
+main{
+    width: 70%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.display{
+    height: 100px;
+    background: hsl(224, 36%, 15%);
+    border-radius: 10px 10px 0 0;
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 900;
+    color: #fff;
+    padding: .2em .5em;
+    position: relative;
+}
+.auto{
+    position: absolute;
+    opacity: .2;
+    left:3%;
+    font-size: 3rem;
+    bottom: 3%;
+    overflow:hidden;
+}
+.buttons{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 10px 10px;
+    justify-content: space-around;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.main-d{
+    overflow-x: auto;
+    display: flex;
+}
+section button{
+    width: 20%;
+    height: 33px;
+    aspect-ratio:1/2;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    color: hsl(224, 36%, 15%)
+}
+button:hover{
+    opacity: .5;
+}
+.big-button button{
+    width: 45%;
+    background: hsl(6, 63%, 50%);
+}
